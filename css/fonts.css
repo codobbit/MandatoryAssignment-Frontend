@@ -1,0 +1,18 @@
+@font-face {
+    font-family: '_LatoBlack';
+    src: url('../media/fonts/Lato2OFL/Lato-Black.ttf')
+format('truetype');
+}
+
+@font-face {
+    font-family: '_LatoRegular';
+    src: url('../media/fonts/Lato2OFL/Lato-Regular.ttf')
+       format('truetype');
+
+}
+@font-face {
+    font-family: '_Raleway';
+    src: url('../media/fonts/raleway/Raleway-Regular.ttf')
+    format('truetype');
+
+}

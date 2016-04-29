@@ -1,0 +1,235 @@
+[
+
+	{
+		"name": "Hammer",
+		"image": "../media/images/hammer-1.jpg",
+		"description": "20 cm hammer with wooden grip",
+		"price": "70 DKK"
+
+	}, {
+		"name": "Nails 7",
+		"image": "../media/images/iron-nails.jpg",
+		"description": "Package of 100. 7 inch nails made out of stainless steel.",
+		"price": "30 DKK"
+	}, {
+		"name": "Screws ",
+		"image": "../media/images/screw.png",
+		"description": "Package of 25. 3 inch screws.",
+		"price": "40 DKK"
+	},  {
+		"name": "Saw",
+		"image": "../media/images/saw.jpg",
+		"description": "Bosch reciprocating saw PSA 9000 E",
+		"price": "999 DKK"
+	},
+
+	{
+		"name": "Drill",
+		"image": "../media/images/drill.jpg",
+		"description": "AEG drill / driver BS18C LI-202C 18 V.",
+		"price": "600 DKK"
+	},
+
+	{
+		"name": "Paint gun ",
+		"image": "../media/images/paintgun.jpg",
+		"description": "Painter Pistol 1 / 2L Kit Line.",
+		"price": "389 DKK"
+	},
+
+	{
+		"name": "Nail gun ",
+		"image": "../media/images/nailgun.jpg",
+		"description": "Compressed air powered nail gun.",
+		"price": "400 DKK"
+	},
+
+	{
+		"name": "Grinder",
+		"image": "../media/images/grinder.jpg",
+		"description": "A practical angle grinder from Bosch",
+		"price": "255 DKK"
+	},
+
+	{
+		"name": "Blade",
+		"image": "../media/images/blade.jpg",
+		"description": "MAKITA DIAMOND BLADE D-41632 125MM",
+		"price": "60 DKK"
+	},
+
+	{
+		"name": "Lock",
+		"image": "../media/images/lock.jpg",
+		"description": "ELECTRONIC LOCK YALE",
+		"price": "3199 DKK"
+	},
+
+	{
+		"name": "Screwdriver",
+		"image": "../media/images/screwdriver.jpg",
+		"description": "39 multi-bit screwdriver w / ratchet",
+		"price": "200 DKK"
+	},
+
+	{
+		"name": "Toolbox",
+		"image": "../media/images/toolbox.jpg",
+		"description": "Toolbox WHL with 81 parts",
+		"price": "150 DKK"
+	},
+
+	{
+		"name": "Cutter",
+		"image": "../media/images/cutter.jpg",
+		"description": "MINI BOLT CUTTER 210 MM",
+		"price": "30 DKK"
+	},
+
+	{
+		"name": "Hammer",
+		"image": "../media/images/hammer-1.jpg",
+		"description": "Plastic Hammer in solid material",
+		"price": "35 DKK"
+	},
+
+	{
+		"name": "Key",
+		"image": "../media/images/key.jpg",
+		"description": "Universal twin key 30mm",
+		"price": "60 DKK"
+	},
+
+	{
+		"name": "Wrench",
+		"image": "../media/images/wrench.jpg",
+		"description": "Combination wrench 7 parts - Wisent",
+		"price": "100 DKK"
+	},
+
+	{
+		"name": "Wheelbarrow",
+		"image": "../media/images/Wheelbarrow.jpg",
+		"description": "Workshop trolley with 7 drawers - Wisent",
+		"price": "2100 DKK"
+	},
+
+	{
+
+		"name": "Hydraulic Jack",
+		"image": "../media/images/hydraulicjack.jpg",
+		"description": "Hydraulic JACK BH12009 2 TONS",
+		"price": "670 DKK"
+	},
+
+	{
+		"name": "Ladder",
+		"image": "../media/images/ladder.jpg",
+		"description": "Telescopic aluminium ladder 200mm",
+		"price": "360 DKK"
+	},
+
+	{
+		"name": "Bolts",
+		"image": "../media/images/bolts.jpg",
+		"description": "Extension bold 10mm ALU PS23 ",
+		"price": "999 DKK"
+
+	},
+
+	{
+		"name": "Brush",
+		"image": "../media/images/brush.jpg",
+		"description": "SCHUSTER Brush BLACK 3 PARTS.",
+		"price": "45 DKK"
+
+	},
+
+	{
+		"name": "Painting ",
+		"image": "../media/images/paint.jpg",
+		"description": "DECORA full deck jet black 5L.",
+		"price": "50 DKK"
+	},
+
+	{
+		"name": "Brackets",
+		"image": "../media/images/brackets.jpg",
+		"description": "ANGLE BRACKETS CE 90X65X90MM RIB.",
+		"price": "10 DKK"
+	},
+
+	{
+
+		"name": "Fisher Screws",
+		"image": "../media/images/fisherscrew.jpg",
+		"description": "FISCHER SCREW 5x60 200 STK",
+		"price": "120 DKK"
+
+	},
+
+	{
+
+		"name": "Welding helmet",
+		"image": "../media/images/Weldinghelmet.jpg",
+		"description": "Welding helmet",
+		"price": "60 DKK"
+
+	},
+
+	{
+
+		"name": "Glasses",
+		"image": "../media/images/protectiongoggles.png",
+		"description": "WELDING GLASSES WITH FOLDING GLASS",
+		"price": "340 DKK"
+	},
+
+	{
+		"name": "Handsaw",
+		"image": "../media/images/handsaw.jpg",
+		"description": "JACK handsaw 550MM",
+		"price": "50 DKK"
+	}, {
+		"name": "Scissors",
+		"image": "../media/images/handscissors.png",
+		"description": "Aluminium plate scissors",
+		"price": "75 DKK"
+	},
+
+	{
+		"name": "Gun",
+		"image": "../media/images/staplegun.jpg",
+		"description": "MITSUTOMO STAPLE GUN",
+		"price": "80 DKK"
+	},
+
+	{
+		"name": "Metal Hand Saw",
+		"image": "../media/images/metalhandsaw.png",
+		"description": "Metal handsaw",
+		"price": "89 DKK"
+	},
+
+	{
+		"name": "Glass Cutter",
+		"image": "../media/images/glasscutter.jpg",
+		"description": "OIL GLASS CUTTER",
+		"price": "98 DKK"
+	},
+
+	{
+		"name": "Stanley hand Saw",
+		"image": "../media/images/stanleyhandsaw.jpg",
+		"description": "STANLEY hand saw",
+		"price": "300 DKK"
+	},
+
+	{
+		"name": "Working gloves",
+		"image": "../media/images/workinggloves.jpeg",
+		"description": "Working gloves with Grip- Size M",
+		"price": "60 DKK"
+
+	}
+]

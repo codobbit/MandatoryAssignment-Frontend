@@ -1,0 +1,123 @@
+/*Product Grid*/
+body{
+    background: url('../media/images/white_wall_hash.png') repeat;
+    /*background-repeat: repeat-x;*/
+}
+.productGridContainer{
+    padding: 1% 0 1% 0;
+    /*margin: 0 1% 0 1%;*/
+    /*display: block;*/
+}
+.productGridItem{
+    height: 330px;
+    min-height: 330px;
+    /*height:270px;*/
+    /*background-color:#eeeeee;*/
+    background-color:white;
+display: block;
+    /*width:100%;*/
+    float:left;
+    margin: 0 1% 2% 1%;
+    border: solid 0.1px rgba(158, 155, 155, 0.23);
+   border-radius: 4px;
+}
+
+
+/***** FONT Awesome adjustments ********/
+
+.fa-bars{
+    color: #082C59 ;
+    margin-right: 1%;
+    font-size: 1.1em;
+}
+
+.fa-cart-plus {
+    font-size: 2em;
+}
+/******************* Product Thumbnails *************************/
+.actualProductContainer{
+    position: relative;
+}
+.actualProductContainer > h3{
+    font-size: x-large;
+    color: #49463e;
+    padding: 0;
+
+}
+.thumbnailTitleRelative{
+    position: absolute;
+    bottom: 72px;
+    left: 10px;
+}
+
+.paragraphSpacingThumbnail{
+    margin: 18px 10px 5px 10px;
+}
+.actualProductContainer .paragraphSpacingThumbnail > p{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.actualProductContainer > button{
+    border-radius: 50px;
+}
+
+/*.productGridItem .actualProductContainer{*/
+    /*margin: 10px;*/
+    /*padding: 15px;*/
+/*}*/
+
+.thumbnailImage{
+    height: auto;
+    width: 100%;
+    max-height: 250px;
+    border-bottom: solid 0.1px rgba(158, 155, 155, 0.23);
+}
+
+.btnInfo{
+    background-color: #C1bebe;
+    color: #30312f;
+    padding: 5px 10px 5px 10px;
+}
+
+.btnAddToCart{
+    background-color: #EBA527;
+    color: #fff;
+    margin: 0;
+    border-radius: 25px;
+    padding: 15px;
+    vertical-align: initial;
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+}
+
+.floatingMaterialButtonShadow{
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+/********* Pagination ********/
+#pagination{
+    display: block;
+    width: 100%;
+    /*position: fixed;*/
+    bottom: 250px;
+    clear:both;
+    margin: 0 auto;
+    padding: 3% 0 5% 45%;
+}
+
+section{
+    display: block;
+}
+.fa-chevron-right, .fa-chevron-left{
+    color: #49463e;
+}
+#page{
+    font-size: larger;
+    font-family: _LatoRegular;
+    color: #49463e;
+}

@@ -1,0 +1,43 @@
+[
+	{
+		"Purchaser":"Thomas Jensen",
+		"Date": "18/01/2016",
+		"Content" :[
+				{
+			"name": "Hammer",
+			"description": "20 cm hammer with wooden grip",
+			"price": "70 DKK"
+
+			},
+			{
+			"name": "Nails 7",
+			"description": "Package of 100. 7 inch nails made out of stainless steel.",
+			"price": "30 DKK"
+			}
+			],
+		"Approved" : "False"
+		
+		
+	},
+	{
+		"Purchaser":"Thomas Jensen",
+		"Date": "17/01/2016",
+		"Content" :[
+				{
+			"name": "Nails 7",
+			"description": "Package of 100. 7 inch nails made out of stainless steel.",
+			"price": "30 DKK"
+			},
+			
+			{
+			"name": "Screws ",
+			"description": "Package of 25. 3 inch screws.",
+			"price": "40 DKK"
+		}
+			],
+		"Approved" : "False"
+		
+		
+	}
+
+]

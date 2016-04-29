@@ -1,0 +1,259 @@
+
+/**************************** Defaults *************************/
+p{
+    font-family: _LatoRegular;
+    color: #49463e;
+
+}
+
+h1,h2,h3,h4{
+    font-family: _LatoBlack;
+    font-variant: small-caps;
+}
+
+h1 {
+    color: #f9f9f9;
+    text-shadow: rgba(195,194,194,1);
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 15%;
+    margin: 0 0 10px 0;
+    font-size: 40px;
+}
+
+nav {
+    top:0;
+    display: block;
+    background-color: #D9DbDA;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: _Raleway;
+}
+
+ a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+button {
+    border-radius: 10px;
+    padding: 6px;
+    border:1.5px;
+    font-family: _Raleway;
+}
+
+header {
+    display: block;
+}
+
+footer{
+    background-color: #001C3D;
+    padding:60px 0 60px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
+}
+footer> div> p, i {
+    color: #eeeeee;
+    text-align: center;
+
+}
+footer> div> p{
+    font-family: _Raleway;
+    margin-bottom: 10px;
+}
+footer> div> .fa {
+    font-size: x-large;
+    display: block;
+
+}
+
+footer > div {
+    height: 100%;
+    display: inline-block;
+}
+
+section > h1{
+    padding-top:0;
+}
+/**************  Sidebar Menu Small Screens *************/
+.hamburgerActive{
+    background-color: #082C59;
+}
+/******************** Top menu navigation ********************/
+.navMenuItem{
+    color: #082C59 ;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    font-family: _Raleway;
+    font-size: 1.5em;
+}
+
+.navLinks{
+    display: inline-block;
+    margin: auto;
+    padding-left: 20px;
+}
+
+/********************** Top buttons *******************/
+.btnNav{
+    float: right;
+    display: inline-block;
+    background-color: #082C59 ;
+    color: #fff;
+    margin-left: 4px;
+}
+
+/********************* Logo ******************/
+.logo{
+    display: inline-block;
+    height: auto;
+    max-height: 90px;
+    max-width: 160px;
+    width: auto;
+}
+/***** Flexbox for Navigation **************/
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.flexItem{
+    /*this defines where extra space is going to*/
+    flex-grow: 1 ;
+}
+
+.flexItemGrow {
+    flex-grow: 2;
+    align-self: flex-start;
+}
+
+/****** Actions *******/
+.show{
+    display: block;
+}
+.hide {
+    display: none;
+}
+.floatRight {
+    float: right;
+}
+.centerElement{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*****Margins and Paddings *********/
+/*candidates for variables*/
+.marginBottomXS{
+    margin-bottom: 10px;
+}
+.marginTopXS{
+    margin-top: 10px;
+}
+.marginTopS{
+    margin-top: 30px;
+}
+.marginRightTopMenu{
+    margin-right: 46px;
+}
+.marginRightPercentage{
+    margin-right: 5%;
+}
+/* colours */
+.whiteGrey {
+    color:#eeeeee;
+}
+
+.orangeBackground {
+    background-color: #EBA527;
+}
+.inlineblock{
+    display: inline-flex;
+    width: 30%;
+}
+.clearBoth{
+    clear:both;
+}
+/******** Input field on camera ********/
+
+.barcodeScanner{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#videoElement{
+    width: 100%;
+    height: auto;
+    background-color: #666;
+}
+#inputBarcodeScanner{
+    width: 100%;
+    height: auto;
+}
+
+/***** Orders *****/
+#orders-list{
+    display: block;
+}
+/*** great candidate for SASS**/
+#orders-list p{
+    display: block;
+}
+#orders-list li{
+   margin: 10px  0 30px 0;
+}
+.approvalButton{
+    /*background-color: #001C3D;*/
+    display: block;
+    color: #eeeeee;
+}
+/******* Main Page *********/
+section > h1, p, button {
+    text-align: center;
+}
+section > button{
+    color: #30312f;
+}
+
+.coverSection{
+    display: block;
+    padding-top: 150px;
+    /*position: relative;*/
+    background-size: cover;
+    min-height: 450px;
+}
+/*good candidate for SASS mixin*/
+.buyAHouse{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/images/ToTheShop.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.professionalEmployee{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/images/construction-worker-blueprints.jpg") no-repeat center;
+    background-size: cover;
+
+}
+
+
+/*Main page*/
+.cards-6{
+     height: 100%;
+    /*width: 45%;*/
+    display: inline-block;}
+
+div .cards-6 > p,h2{
+    text-align: center;
+}
+
+.colorGrey{
+    color: #30312f;
+    padding-top: 0;
+}

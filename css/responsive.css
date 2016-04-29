@@ -1,0 +1,80 @@
+/*--------------------- MEDIA QUERIES ------------------*/
+/*remove the nav colour*/
+
+@media screen and (min-width: 0px) {
+    nav {
+        /*background-color: #fff;*/
+    }
+    .logo{
+        height: inherit;
+    }
+     nav > .hideOnSmallScreen {
+        display: none;
+    }
+     nav > .showOnSmallScreen {
+        display: block;
+    }
+    .productGridItem{
+        width: 98%;
+    }
+}
+@media screen and (min-width: 480px)  {
+    nav {
+        /*background-color: #f3f3f3;*/
+    }
+    .logo{
+        height: inherit;
+    }
+    nav >.hideOnSmallScreen {
+        display: none;
+    }
+    nav > .showOnSmallScreen {
+        display: block;
+    }
+    .productGridItem{
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 767px){
+    nav{
+        /*background-color: #eeeeee;*/
+    }
+     nav >.hideOnSmallScreen{
+        display: block;
+    }
+     nav >.showOnSmallScreen{
+        display: none;
+    }
+    .productGridItem{
+        width: 31%;
+    }
+}
+@media screen and (min-width: 991px){
+    nav{
+        /*background-color: #dddddd;*/
+    }
+     nav >.hideOnSmallScreen{
+        display: block;
+    }
+     nav >.showOnSmallScreen{
+        display: none;
+    }
+    .productGridItem{
+        width: 22%;
+    }
+}
+@media screen and (min-width: 1200px){
+    nav{
+        /*background-color: #cdbcaa;*/
+    }
+     nav > .hideOnSmallScreen{
+        display: block;
+    }
+     nav > .showOnSmallScreen{
+        display: none;
+    }
+    .productGridItem{
+        width: 17%;
+    }
+}

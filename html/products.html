@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../css/responsive.css"/>
+    <link rel="stylesheet" href="../css/products.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+</head>
+<body>
+<header>
+    <nav class="flexContainer marginBottom">
+        <img class="logo showOnSmallScreen" src="../media/images/worker.jpg" alt="My logo">
+        <img class="logo hideOnSmallScreen" src="../media/images/manager.jpg" alt="My logo">
+
+
+        <div class="hideOnSmallScreen navLinks flexItem flexItemGrow">
+            <a href="../index.html" class="navMenuItem">Home</a>
+            <a href="../html/products.html" class="navMenuItem">Shop</a>
+            <a href="../html/Orders.html" class="navMenuItem">Orders</a>
+        </div>
+        <div class="btnNavSpan hideOnSmallScreen">
+            <button class="btnNav">Login</button>
+            <button class="btnNav">Sign up</button>
+        </div>
+        <div id="hamburgerMenu" class="showOnSmallScreen flexItem navMenuItem">
+            <i class="fa fa-bars floatRight"></i>
+        </div>
+    </nav>
+</header>
+<!-- Hamburglar Menu -->
+<aside id="sideMenu" class="sidebar floatRight hide ">
+    <a class="sidebarItem" href="../html/barcodeScan.html">Scan</a>
+    <a class="sidebarItem" href="../html/products.html">Shop</a>
+    <a class="sidebarItem" href="../html/Orders.html">Orders</a>
+    <a class="sidebarItem" href="../html/Login.html">Login</a>
+    <a class="sidebarItem" href="#">Sign up</a>
+</aside>
+
+<!--  Products -->
+<section id="productGrid" class="productGridContainer">
+
+    </section>
+
+<!-- Pagination -->
+<div id="pagination" class="centerElement">
+    <!--<p>I am a paragraph</p>-->
+    <i id="btn_prev" class="fa fa-chevron-left fa-2" aria-hidden="true"></i>
+
+    <!--<a href="#" id="btn_prev">Prev</a>-->
+    <span id="page"></span>
+    <i id="btn_next" class="fa fa-chevron-right fa-2" aria-hidden="true"></i>
+
+    <!--<a href="#" id="btn_next">Next</a>-->
+</div>
+
+<footer class="flexContainer">
+    <div class="flexItem">
+        <p>Contacts</p>
+        <p>Services</p>
+        <p>Delivery</p>
+        <p>Shop</p>
+    </div>
+
+    <div class="flexItem">
+        <p>Building Materials ApS</p>
+        <p>Meijlgade 24</p>
+        <p>Aarhus, DK</p>
+    </div>
+    <div class="flexItem">
+
+        <i class="fa fa-facebook-square fa-3" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-3" aria-hidden="true"></i>
+    </div>
+    <!--<div class="flexItem">-->
+    <!--</div>-->
+</footer>
+
+
+<!-- JS-->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/pagination.js"></script>
+<script type="text/javascript" src="../data/products.json"></script>
+
+
+</body>
+
+</html>

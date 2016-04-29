@@ -1,0 +1,40 @@
+body{
+    background-color: darkgrey;
+}
+
+.centerButton{
+    margin: 0 auto;
+}
+
+.block{
+    display: block;
+}
+
+
+.center{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    /*what does this actually do?!*/
+    transform: translate(-50%, -50%);
+}
+
+.mobileTextInput{
+    padding: 10px 50px 10px 10px;
+    border-radius: 6px;
+}
+
+.btnCallToAction{
+    padding: 10px 30px 10px 30px;
+    background-color: #ffb137;
+    border-radius: 10px;
+}
+
+.removeTextDecorations{
+    text-decoration: none;
+}
+
+.inline{
+    display: inline;
+}
