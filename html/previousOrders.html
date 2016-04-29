@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <nav class="flexContainer marginBottom">
+    <nav class="flexContainer ">
         <img class="logo showOnSmallScreen" src="../media/images/worker.jpg" alt="My logo">
         <img class="logo hideOnSmallScreen" src="../media/images/manager.jpg" alt="My logo">
 
@@ -42,20 +42,44 @@
     <a class="sidebarItem" href="#">Sign up</a>
 </aside>
 
-<div class="barcodeScanner">
-    <video autoplay="true" id="videoElement">
-    </video>
-    OR
-</div>
+<section id="previousOrders" >
+    <div class="clonable" >
+     <h3 class="date">18/01/2016</h3>
 
-<form class="barcodeScanner showOnSmallScreen" >
-<input type='file' id="imageInput" accept="image">
-<img id="inputBarcodeScanner" src="../media/images/barcode.png" alt="Preview" />
-</form>
+    <ul >
+        <li class="flexContainer marginBottomXS paddingLeft">
+            <img class="smallThumbImage flexItem" src="../media/images/paint.jpg"/>
+             <p class="flexItem">Hammer</p>
+             <p class="flexItem">70DKK</p>
+        </li>
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/script.js"> </script>
-<script src="../js/cameraAccess.js"> </script>
+        <li class="flexContainer marginBottomXS paddingLeft">
+            <img class="smallThumbImage flexItem" src="../media/images/hydraulicjack.jpg"/>
+            <p class="flexItem">Hydraulic Jack</p>
+            <p class="flexItem">1300DKK</p>
+        </li>
+
+        <li class="flexContainer marginBottomXS paddingLeft">
+            <img class="smallThumbImage flexItem" src="../media/images/blade.jpg"/>
+            <p class="flexItem">Blade</p>
+            <p class="flexItem">400DKK</p>
+        </li>
+
+        <li class="flexContainer marginBottomXS paddingLeft">
+            <img class="smallThumbImage flexItem" src="../media/images/stanleyhandsaw.jpg"/>
+            <p class="flexItem">Stanley Handsaw</p>
+            <p class="flexItem">500DKK</p>
+        </li>
+
+
+        </ul>
+         <button class="floatRight approvalButton marginBottomXS marginTopXS orangeBackground" >Reorder</button>
+    </div>
+</section>
+
+
+
+
 <footer class="flexContainer">
     <div class="flexItem">
         <p>Contacts</p>
@@ -78,5 +102,9 @@
     <!--</div>-->
 </footer>
 
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/previousOrder.js"></script>
 </body>
 </html>
