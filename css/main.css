@@ -225,10 +225,8 @@ section > button{
 
 .coverSection{
     display: block;
-    padding-top: 150px;
-    /*position: relative;*/
+    padding: 19%;
     background-size: cover;
-    min-height: 450px;
 }
 /*good candidate for SASS mixin*/
 .buyAHouse{
@@ -256,4 +254,10 @@ div .cards-6 > p,h2{
 .colorGrey{
     color: #30312f;
     padding-top: 0;
+}
+.displayTable {
+    display: table;
+}
+.marginTopBottom100{
+    margin: 10% 0 10% 0;
 }
