@@ -167,6 +167,9 @@ section > h1{
 .marginRightPercentage{
     margin-right: 5%;
 }
+.marginTopBottom100{
+    margin: 6px 0 10% 0;
+}
 /* colours */
 .whiteGrey {
     color:#eeeeee;
@@ -257,7 +260,4 @@ div .cards-6 > p,h2{
 }
 .displayTable {
     display: table;
-}
-.marginTopBottom100{
-    margin: 10% 0 10% 0;
 }
