@@ -227,6 +227,8 @@ section > h1{
     /*background-color: #001C3D;*/
     display: block;
     color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    font-size: x-large;
 }
 
 /* The previous orders page*/
